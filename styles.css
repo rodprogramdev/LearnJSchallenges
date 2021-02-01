@@ -14,13 +14,15 @@ body{
 
 /**********************INDEX PAGE HEADER***********************************/
 .header{
-    height: 50vh;
+    height: 20vh;
+    
 }
 
 .header__nav{
     height: 15vh;
     background-color: yellow;
     position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0% 100%);
 }
 
 .header__logo{
@@ -30,6 +32,12 @@ body{
     left: 2%;
 }
 
+.header__contributor{
+    position: absolute;
+    top: 10%;
+    left: 80%;
+}
+
 h1{
     margin: 1rem;
 }
@@ -37,38 +45,44 @@ h1{
 p{
     font-size: 1.5rem;
     margin: 1rem;
+    text-indent: 40px;
 }
+
+/* .intro__last-paragraph{
+    text-indent: 0;
+
+} */
 
 a{
  font-size: 1.5rem;
 }
 
-/**********************VARIABLE PAGE HEADER*************************/
-.header{
-    position:relative;
-   
+
+.list__items{
+    list-style-type: disc;
+    margin-left: 2rem;
 }
 
+.intro{
+    padding: 4rem;
+}
+
+.lessons{
+    padding: 2rem;
+}
+
+
+/**********************VARIABLE PAGE HEADER*************************/
+.header__var{
+    height: 20vh;
+}
 .heading{
     position:relative;
     left: 2%;
     font-size: 2rem;
 }
 
-.header__img   {
-    position:relative;
-    top: -20%;
-    left: 90%;
-    background-color: red;
-    display: inline-block;
-    height: 10%;
-    width: 7%;
-}
 
-img{
-    height: 8rem;
-    width:8rem;
-}
 
 /**********************VAR SECTION - DIV*************************/
 .var{
@@ -93,4 +107,51 @@ ul{
 
 ol li ul {
     list-style-type:none;
+}
+
+/*****************SOLUTION 1**********************/
+.solution{
+    height: 100vh;
+    position: relative;
+}
+.button{
+    position: absolute;
+    
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#checkDiv{
+    padding: 5rem;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+/****************************CONTRIBUTORS PAGE***************************/
+.contributor__instructions{
+    padding: 4rem;
+}   
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+  th, td{
+      padding: 1%
+  }
+
+.table{
+    padding: 1%;
+}
+table{
+    width: 100%;
+    font-size: 2rem;
+    
+}
+
+td{
+    font-size:1.5rem;
+    padding: 1rem;
 }
