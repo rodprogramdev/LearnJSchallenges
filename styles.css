@@ -77,6 +77,9 @@ a{
     padding: 2rem;
 }
 
+strong{
+    color:red;
+}
 
 /**********************VARIABLE PAGE HEADER*************************/
 .header__var{
