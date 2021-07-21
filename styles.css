@@ -50,6 +50,10 @@ p{
     text-indent: 40px;
 }
 
+::selection{
+    background-color:yellow;
+}
+
 /* .intro__last-paragraph{
     text-indent: 0;
 
