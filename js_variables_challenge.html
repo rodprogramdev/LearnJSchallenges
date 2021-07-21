@@ -1,118 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JavaScript Coding Exercise</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <div class="header__var">
-        <div class="header__nav">
-            <nav>
 
-            </nav>
-            <div class="header__logo">
-                LearnJSchallenges
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript Coding Exercise</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header__var">
+      <div class="header__nav">
+        <nav>
+
+        </nav>
+        <div class="header__logo">
+          LearnJSchallenges
         </div>
-        
       </div>
-    </header>
 
-    <section>
-      
-      <div class="var">
-        <p><a href="index.html">Back to home</a> </p>
-        <h2>Introduction to Variables</h2>
-        <p>
-          We can compare variables with buckets or boxes that can contain data
-          values. Variables are containers that can store data. We can declare a
-          variable and then initialize it by assigning it with a data value.
-        </p>
-        <br />
-        <h2>Instructions</h2>
-        <ol>
-          <li>
-            Now that we have learned about variables if you want to read more
-              about it, I suggest you go to your favorite search engine and then search the term
-              JavaScript variables.
-          </li>
-          <li>
-            Select one of the results and <strong>READ</strong> more about the different things
-            about variables.
-          </li>
-          <li>Now that you have practice doing some <strong>RESEARCh </strong>about 
-            what a variable is in Javascript. Let's go and try to solve this challenge.
+    </div>
+  </header>
+
+  <section>
+
+    <div class="var">
+      <p><a href="index.html">Back to home</a> </p>
+      <h2>Introduction to Variables</h2>
+      <p>
+        We can compare variables with buckets or boxes that can contain data
+        values. Variables are containers that can store data. We can declare a
+        variable and then initialize it by assigning it with a data value.
+      </p>
+      <br />
+      <h2>Instructions</h2>
+      <ol>
+        <li>
+          Now that we have learned about variables if you want to read more
+          about it, I suggest you go to your favorite search engine and then search the term
+          JavaScript variables.
+        </li>
+        <li>
+          Select one of the results and <strong>READ</strong> more about the different things
+          about variables.
+        </li>
+        <li>Now that you have practice doing some <strong>RESEARCH </strong>about
+          what a variable is in Javascript. Let's go and try to solve this challenge.
         </li>
         <li>If your stuck, don't be afraid to <strong>ASK</strong> questions and get help from the community.</li>
-        </ol>
+      </ol>
 
-        <br />
-        <h2>Follow the steps to accomplish this exercise.</h2>
-        <ol>
-          <li>Open Firefox.</li>
-          <li>Press on F12 to open the developer tools.</li>
-          <li>Go to the console tab inside of the developer tools of Firefox. The developer tools is going to be 
-            your bestfriend for bug hunting.
-          </li>
-          <li>Type in the console the following:
-              <ul>
-                  <li>function bucketTest( ){ <br>
-                      
-                    &nbsp; console.log('bucket1 is ' + bucket1); <br>  
-                    &nbsp; console.log('bucket2 is ' + bucket2);
-                    <br>
-                }        <br>
-                
-                bucketTest();
-            
+      <br />
+      <h2>Follow the steps to accomplish this exercise.</h2>
+      <ol>
+        <li>Open Firefox.</li>
+        <li>Press on F12 to open the developer tools.</li>
+        <li>Go to the console tab inside of the developer tools of Firefox
+          (The developer tools is going to be
+          your bestfriend for bug hunting).
+        </li>
+        <li>Type in the console the following:
+          <ul>
+            <li>function bucketTest( ){ <br>
+
+              &nbsp; console.log('bucket1 is ' + bucket1); <br>
+              &nbsp; console.log('bucket2 is ' + bucket2);
+              <br>
+              } <br>
+
+              bucketTest();
+
             </li>
-                  
 
-              </ul>
-          </li>
-          <li>Inside of the function declare a variable name bucket1 and initialize a value for it by
-              assigning a value of 10.
-          </li>
-          <li>Inside of the function declare a variable name bucket2 and initialize a value for it by
-              assigning a value of 20.
-          </li>
-          <li>Now our goal is to run a function that will switch the values of bucket1 and bucket2.</li>
-          
-        </ol>
 
-        <h2>THINGS YOU ARE NOT ALLOWED TO DO:</h2>
-        Do not
-        Do not
-        Do not
+          </ul>
+        </li>
+        <li>Inside of the function declare a variable name <strong>bucket1</strong> and initialize a value for it by
+          assigning a value of 10.
+        </li>
+        <li>Inside of the function declare a variable name <strong>bucket2</strong> and initialize a value for it by
+          assigning a value of 20.
+        </li>
+
+        <li>Now you would see the Run button on the upper left corner try to press that to see the results.</li>
+        <li>Now our goal is to run a function that will switch the values of bucket1 and bucket2.</li>
+
+      </ol>
+
+      <h2>THINGS YOU ARE NOT ALLOWED TO DO:</h2>
+      Do not
+      Do not
+      Do not
+    </div>
+  </section>
+  <section>
+    <div class="solution">
+      <div class="button">
+        <button onclick="checkSolution()">CHECK SOLUTION - CLICK HERE</button>
       </div>
-    </section>
-    <section>
-      <div class="solution">
-        <div class="button">
-          <button onclick="checkSolution()">CHECK SOLUTION - CLICK HERE</button>
-        </div>
-        
-  
-        <div id="checkDiv">
-          <p style="color:red; font-size: 3rem;">SPOILER ALERT, ALERT, ALERT!!</p>
-          This is where the solution will appear for this challenge.
-        </div>
+
+
+      <div id="checkDiv">
+        <p style="color:red; font-size: 3rem;">SPOILER ALERT, ALERT, ALERT!!</p>
+        <br />
+        <img id="img1" src="images/js_variable_challenge1--1.JPG" alt="js_variable_challenge_img--1" height="20%"
+          width="100%">
+          <br />
+          <br />
+        <img id="img2" src="images/js_variable_challenge1--2.JPG" alt="js_variable_challenge_img--2" height="20%"
+          width="100%">
+          <br />
       </div>
-      
-    </section>
-    <script>
-      function checkSolution() {
-        var x = document.getElementById("checkDiv");
-        if (x.style.display === "none") {
-          x.style.display = "block";
-        } else {
-          x.style.display = "none";
-        }
+    </div>
+
+  </section>
+  <script>
+    function checkSolution() {
+      var x = document.getElementById("checkDiv");
+      var y = document.getElementById("img1")
+      var z = document.getElementById("img2")
+    
+      if (x.style.display === "block") {
+         x.style.display = "none";
+        // y.style.display ="none";
+      } else {
+        x.style.display = "block";
+        y.style.display ="block";
       }
-    </script>
-  </body>
-</html>
+    }
+  </script>
+</body>
 
+</html>

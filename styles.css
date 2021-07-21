@@ -9,7 +9,8 @@ html{
 }
 
 body{
-    font-family: cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
     /* font-family: 'Roboto', sans-serif; */
 } 
 
@@ -63,10 +64,14 @@ a{
  font-size: 1.5rem;
 }
 
-
+/* 
 .list__items{
     list-style-type: disc;
-    margin-left: 2rem;
+    margin-left: 1rem;
+} */
+
+.list__items--basics{
+    list-style-type: none;
 }
 
 .intro{
@@ -96,8 +101,8 @@ strong{
 /**********************VAR SECTION - DIV*************************/
 .var{
     padding: 4rem;
-    font-size: 2rem;
 }
+
 h2{
     margin-left: 1rem;
     margin-top: 1rem;
@@ -119,6 +124,18 @@ ol li ul {
 }
 
 /*****************SOLUTION 1**********************/
+button{
+    padding: 5%;
+    width: 100%;
+    color: red;
+    font-size: 2rem;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:lightblue;
+
+}
 .solution{
     height: 100vh;
     position: relative;
@@ -129,12 +146,14 @@ ol li ul {
     left:50%;
     transform: translate(-50%, -50%);
     
+    
 }
 
 #checkDiv{
     padding: 5rem;
     font-size: 3rem;
     text-align: center;
+    display:none;
 
 }
 
